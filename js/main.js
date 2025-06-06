@@ -1,21 +1,5 @@
 "use strict";
 
-// Lenis
-const lenis = new Lenis({
-    wrapper: document.querySelector('.scroll-container'),
-    lerp: 0.12,
-    duration: 1.2,
-    smoothTouch: true
-});
-lenis.on('scroll', e => {
-    console.log(e);
-});
-function raf(time) {
-    lenis.raf(time);
-    requestAnimationFrame(raf);
-}
-requestAnimationFrame(raf);
-
 function pageNavigation() {
   var _this = this;
 
