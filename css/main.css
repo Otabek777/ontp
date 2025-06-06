@@ -523,6 +523,20 @@ li,ul {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+.project-item .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 280px;
+  width: 320px;
+  min-height: 260px;
+  /* background: #fff; */
+  margin-bottom: 12px;
+}
+.project-item .image img {
+  width: 100%;
+  margin-bottom: 0;
+}
 
 .project-item__cover {
   margin-bottom: 34px;
